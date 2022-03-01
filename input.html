@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+        
+            border-radius: 10px;
+            color: rgb(0, 0, 0);
+            height: 30px;
+        width: 95%;
+        text-align: center;
+        }
+        .jon{
+            position: relative;
+            top: 50px;
+            left: 50%;
+            background-image: radial-gradient(aqua, black,blue,red );
+            color: aliceblue;
+            font-size: 20px;
+            width: 100px;
+            height: 50px;
+        }
+        p{
+            font-size: 30px;
+            text-align: center;
+        }
+        .jon:hover{
+            background-image: linear-gradient(rgb(255, 0, 0),blue,blue, rgb(255, 0, 0));
+        }
+        .markaz{
+            text-align: center;
+        }
+        textarea{
+            border-radius: 10px;
+            width: 1000px;
+            height: 100px;
+        }
+        select{
+            font-size: 30px;
+            position: relative;
+            left: 850px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="g">
+        <p>Ism</p>
+    <div>
+        <input type="text" placeholder="Ismingiz">
+    </div>
+    <p>Familya</p>
+    <div>
+        <input type="text" placeholder="Familyangiz">
+    </div>
+<p>Davlat</p>
+<select name="markaz" id="">
+    <option value="O'zbekiston">O'zbekiston</option>
+    <option value="RASSIA">Rassia</option>
+    <option value="AQSH">AQSH</option>
+</select>
+    <p>Xabar</p>
+<div class="markaz">
+    <textarea name="" id="" cols="30" rows="10" placeholder="Xabar qoldiring"></textarea>
+</div>
+    <p>Telefon raqamingiz</p>
+   <div>
+    <input type="number" placeholder="Telefon raqamingiz">
+   </div>
+    <input class="jon" type="submit" value="Jo'natish">
+    </div>
+    
+</body>
+</html>
